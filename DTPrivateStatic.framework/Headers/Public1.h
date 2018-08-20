@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PrivateTest : NSObject
+@interface Public1 : NSObject
 
-+ (void)testDemo;
++ (void)Public1Test;
 
 @end

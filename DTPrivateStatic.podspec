@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DTPrivateStatic'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of DTPrivateStatic.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  # s.ios.vendored_frameworks = 'DTPrivateStatic.framework'
+  s.ios.vendored_frameworks = 'DTPrivateStatic.framework'
   s.source_files = 'DTPrivateStatic/Classes/**/*'
   s.public_header_files = 'DTPrivateStatic/Classes/public/*.h'
   # s.resource_bundles = {

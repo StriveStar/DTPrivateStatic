@@ -10,7 +10,8 @@
 #endif
 #endif
 
-#import "PrivateTest.h"
+#import "Public1.h"
+#import "Public2.h"
 
 FOUNDATION_EXPORT double DTPrivateStaticVersionNumber;
 FOUNDATION_EXPORT const unsigned char DTPrivateStaticVersionString[];
