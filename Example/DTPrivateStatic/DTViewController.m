@@ -7,7 +7,7 @@
 //
 
 #import "DTViewController.h"
-
+#import "PrivateTest.h"
 @interface DTViewController ()
 
 @end
@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad
 {
+    [PrivateTest testDemo];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

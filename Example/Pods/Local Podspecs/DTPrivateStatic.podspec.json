@@ -1,19 +1,19 @@
 {
   "name": "DTPrivateStatic",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of DTPrivateStatic.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liu583133487@qq.com/DTPrivateStatic",
+  "homepage": "https://github.com/StriveStar/DTPrivateStatic",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "liu583133487@qq.com": "daye@dtstack.com"
+    "StriveStarCoder": "daye@dtstack.com"
   },
   "source": {
-    "git": "https://github.com/liu583133487@qq.com/DTPrivateStatic.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/StriveStar/DTPrivateStatic.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"

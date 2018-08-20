@@ -1,5 +1,5 @@
 PODS:
-  - DTPrivateStatic (0.1.0)
+  - DTPrivateStatic (0.0.1)
 
 DEPENDENCIES:
   - DTPrivateStatic (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DTPrivateStatic: a3b83ca8d348364ec0bc289a69b1e15c014c1331
+  DTPrivateStatic: a4dc7c4c1289f04fafe3d1cefbdd8795e7dcbacc
 
 PODFILE CHECKSUM: 4ea6175919a32a729173fb936bd0765e042ff3b1
 
