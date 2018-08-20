@@ -1,6 +1,6 @@
 {
   "name": "DTPrivateStatic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A short description of DTPrivateStatic.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/StriveStar/DTPrivateStatic",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/StriveStar/DTPrivateStatic.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DTPrivateStatic/Classes/**/*"
+  "source_files": "DTPrivateStatic/Classes/**/*",
+  "public_header_files": "DTPrivateStatic/Classes/public/*.h"
 }

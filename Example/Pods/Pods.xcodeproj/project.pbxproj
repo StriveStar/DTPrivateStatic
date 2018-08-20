@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07B73A79615BEA3B72C4BB2477F41E8D /* DTPrivateStatic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DE0608606CD9849DE87C55A84148F /* DTPrivateStatic-dummy.m */; };
+		06241E4609E8724906D7F4BEF9912F35 /* Public2.m in Sources */ = {isa = PBXBuildFile; fileRef = 659EEA300E1C7475A208BC8E79478F13 /* Public2.m */; };
+		0D26DCE46C3DCA4F559B859F34E8AADF /* DTPrivateStatic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C7AFBB819E1FD53EAC25531CC94D1E /* DTPrivateStatic-dummy.m */; };
 		2185F20C5F9607B49CF4795B367F8825 /* Pods-DTPrivateStatic_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DBF3498358D7D61B7F05A9620A67C5 /* Pods-DTPrivateStatic_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36B3E95F3ABF8DCC519204B5668367D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		3BDF5677C520B883B202DCB50577F7AA /* Pods-DTPrivateStatic_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C5D2C19C23F7F210B7AE6771622D31 /* Pods-DTPrivateStatic_Tests-dummy.m */; };
+		42D1E929D766027D3BCDE2D639E26B73 /* Public1.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BDA8715CDB3208A8BF46045CB66943 /* Public1.m */; };
+		4FB445F1C6B491FB418BFFB5DE1F86A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		51456388EEBCC0DA1A8AF20307198784 /* Pods-DTPrivateStatic_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6406C9AF1ED92AF066059540B636DECA /* Pods-DTPrivateStatic_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53926700AC8718AB39659E03B3356B73 /* Pods-DTPrivateStatic_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 912A5C2E9474AB792F7D9C5D43665F5A /* Pods-DTPrivateStatic_Example-dummy.m */; };
-		9B71A37D6E318F55227B69E876ED65DF /* PrivateTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEDB40168030A8FA42DA7F43D7B11A3 /* PrivateTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		887A5FB5B65752190AC1D5C44303F53D /* DTPrivateStatic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE2F4A9B95548BC6692807198226760 /* DTPrivateStatic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		921F02DC13848C064C7444AA7B38DA7B /* PrivateTest.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0ADFBAD88830E8AE0345E77ABA43DB /* PrivateTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9644F3E8D500502B39686D7B3814C04E /* Public1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD8354A64AD7E66596C36635F2B49BA /* Public1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5DDC270ED0AB2E535E3E5793A125E7B /* PrivateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4A60BDF48D3D54CC6BE40B9CC47FDB /* PrivateTest.m */; };
 		C851EC9B80B495BD6415F0A65F2045F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CAC6D708A7148BA7553324B70FEE6A2B /* DTPrivateStatic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 474CE9AC80F133E5E8BDBE27B78384E9 /* DTPrivateStatic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E15BB0DDE91C622DE98C5C0282211F62 /* PrivateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBFE219143D4A7E74E9D8038A2015A0 /* PrivateTest.m */; };
+		D1B37BFCCAF363F4BF7B6BC6FBF45B30 /* Public2.h in Headers */ = {isa = PBXBuildFile; fileRef = F2903647FF5505D9D655A60E1D123122 /* Public2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E981A88293C772E8D65D7D60172D0F4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,45 +36,49 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14AEE7C9603A0F6251D139B947624CED;
+			remoteGlobalIDString = 153590320F6FFBD1F10E7A4935A8D673;
 			remoteInfo = DTPrivateStatic;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01FB368CEF15358C882DE9BBD585284B /* DTPrivateStatic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTPrivateStatic-prefix.pch"; sourceTree = "<group>"; };
 		0DA7E04D3F792879B6AE05D512D1C6F6 /* Pods-DTPrivateStatic_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTPrivateStatic_Example-frameworks.sh"; sourceTree = "<group>"; };
-		11B83BA369C61592257785E988AA13B9 /* DTPrivateStatic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTPrivateStatic.modulemap; sourceTree = "<group>"; };
 		15099CC9B9DF028F6FBFF6AE46614B87 /* Pods-DTPrivateStatic_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTPrivateStatic_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FD8354A64AD7E66596C36635F2B49BA /* Public1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Public1.h; sourceTree = "<group>"; };
 		20C7F67A64C4C24B68F72D748FE9E20B /* Pods-DTPrivateStatic_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTPrivateStatic_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		231480CCF2D7B3A9BDF532B4BFEE9010 /* Pods-DTPrivateStatic_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTPrivateStatic_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3162ACC4BC4A7551B6C24951029F95D8 /* DTPrivateStatic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTPrivateStatic.modulemap; sourceTree = "<group>"; };
 		3D4A9FE4CFB54FD56E7D46E22C1D23DC /* Pods-DTPrivateStatic_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTPrivateStatic_Tests.modulemap"; sourceTree = "<group>"; };
-		41DA164748838D340688AD2178490445 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		474CE9AC80F133E5E8BDBE27B78384E9 /* DTPrivateStatic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTPrivateStatic-umbrella.h"; sourceTree = "<group>"; };
-		476DE0608606CD9849DE87C55A84148F /* DTPrivateStatic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTPrivateStatic-dummy.m"; sourceTree = "<group>"; };
+		3E4A60BDF48D3D54CC6BE40B9CC47FDB /* PrivateTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PrivateTest.m; path = DTPrivateStatic/Classes/PrivateTest.m; sourceTree = "<group>"; };
+		48DFF62D297C08E270B2F00967B595E0 /* DTPrivateStatic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTPrivateStatic-prefix.pch"; sourceTree = "<group>"; };
 		492F565BE1E4C4772905E05DBD66AD0D /* Pods-DTPrivateStatic_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTPrivateStatic_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4CBFE219143D4A7E74E9D8038A2015A0 /* PrivateTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PrivateTest.m; path = DTPrivateStatic/Classes/PrivateTest.m; sourceTree = "<group>"; };
+		49ACC1CB3697CEE8D30F5813E780BDCF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		51D681A59E178F34C09D34BEEB401E73 /* Pods-DTPrivateStatic_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTPrivateStatic_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BEDB40168030A8FA42DA7F43D7B11A3 /* PrivateTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrivateTest.h; path = DTPrivateStatic/Classes/PrivateTest.h; sourceTree = "<group>"; };
 		6406C9AF1ED92AF066059540B636DECA /* Pods-DTPrivateStatic_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTPrivateStatic_Example-umbrella.h"; sourceTree = "<group>"; };
+		659EEA300E1C7475A208BC8E79478F13 /* Public2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Public2.m; sourceTree = "<group>"; };
+		69F26620B35079AE05D2ADD87CD183FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		70C5D2C19C23F7F210B7AE6771622D31 /* Pods-DTPrivateStatic_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTPrivateStatic_Tests-dummy.m"; sourceTree = "<group>"; };
+		75CD2892252737B9E41E5F1BA27108CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76354E5F781B54CA7921127E2D8FE597 /* Pods-DTPrivateStatic_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTPrivateStatic_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7F7A5E914051B8BD777B5F56972EDAFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		811FA919F0E0A408A0292BB97B33BF49 /* DTPrivateStatic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTPrivateStatic.xcconfig; sourceTree = "<group>"; };
+		76C7AFBB819E1FD53EAC25531CC94D1E /* DTPrivateStatic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTPrivateStatic-dummy.m"; sourceTree = "<group>"; };
 		89AD1CD11347402D9CDDCF5768F0FCED /* DTPrivateStatic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTPrivateStatic.framework; path = DTPrivateStatic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		912A5C2E9474AB792F7D9C5D43665F5A /* Pods-DTPrivateStatic_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTPrivateStatic_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95536D3C444249B05A0046BC71878F54 /* Pods-DTPrivateStatic_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTPrivateStatic_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A73C15FFC9E1D3B733812D76E8ECCAF5 /* DTPrivateStatic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DTPrivateStatic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B51B9795BA9065A9BBA28E28B5E3CB8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B72E8CEE8550D4A83BD3B132D46C5634 /* Pods_DTPrivateStatic_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTPrivateStatic_Tests.framework; path = "Pods-DTPrivateStatic_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7974B80E43FD91B22B2E8DA37908718 /* Pods-DTPrivateStatic_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTPrivateStatic_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B99CD6BEC412024BD2AC001F62409ECE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0ADFBAD88830E8AE0345E77ABA43DB /* PrivateTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrivateTest.h; path = DTPrivateStatic/Classes/PrivateTest.h; sourceTree = "<group>"; };
+		BDE2F4A9B95548BC6692807198226760 /* DTPrivateStatic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTPrivateStatic-umbrella.h"; sourceTree = "<group>"; };
 		C1F603443F225B96F2848C86C02A6EB9 /* Pods-DTPrivateStatic_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTPrivateStatic_Example-resources.sh"; sourceTree = "<group>"; };
 		C63DDB0BE840A31EA6BB251D3CC60A7E /* Pods-DTPrivateStatic_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTPrivateStatic_Example.modulemap"; sourceTree = "<group>"; };
+		C742CBC1BD62B5582E6BD5CFFA8E5E87 /* DTPrivateStatic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTPrivateStatic.xcconfig; sourceTree = "<group>"; };
+		D4BDA8715CDB3208A8BF46045CB66943 /* Public1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Public1.m; sourceTree = "<group>"; };
+		DB09927D65C7A52FD1B78E19FE73C10D /* DTPrivateStatic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DTPrivateStatic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DF9D87430291CA2FEA2E1CA8FE3968C0 /* Pods-DTPrivateStatic_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTPrivateStatic_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EEBBF6552134D44354F8D968958A1FAE /* Pods_DTPrivateStatic_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTPrivateStatic_Example.framework; path = "Pods-DTPrivateStatic_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2903647FF5505D9D655A60E1D123122 /* Public2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Public2.h; sourceTree = "<group>"; };
 		F7C274ED85F48BF3EA3274C0F472D397 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8DBF3498358D7D61B7F05A9620A67C5 /* Pods-DTPrivateStatic_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTPrivateStatic_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FFFAEC4EEBAFAAD3467DE9A03E4FEF4C /* Pods-DTPrivateStatic_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTPrivateStatic_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -93,29 +101,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8E8F3814FEB9808185F754F7A30E1A6 /* Frameworks */ = {
+		BA3B1A8B4FD8B8D49DB99AA0D330B122 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B3E95F3ABF8DCC519204B5668367D6 /* Foundation.framework in Frameworks */,
+				4FB445F1C6B491FB418BFFB5DE1F86A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02BFD123CC9C1D49F908C9952938AC2D /* DTPrivateStatic */ = {
-			isa = PBXGroup;
-			children = (
-				5BEDB40168030A8FA42DA7F43D7B11A3 /* PrivateTest.h */,
-				4CBFE219143D4A7E74E9D8038A2015A0 /* PrivateTest.m */,
-				C40DBB8E8D69F9826E74E02733B28A29 /* Pod */,
-				858187977CEFE18703B20846EE18233E /* Support Files */,
-			);
-			name = DTPrivateStatic;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		2D0D6352E1BFC148250180879EA38ADF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +119,41 @@
 				E4CF7201D7A2C746FE22A46207414DBB /* Pods-DTPrivateStatic_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2DD09EC394FCB10A6E276EBBC5BE500D /* DTPrivateStatic */ = {
+			isa = PBXGroup;
+			children = (
+				BD0ADFBAD88830E8AE0345E77ABA43DB /* PrivateTest.h */,
+				3E4A60BDF48D3D54CC6BE40B9CC47FDB /* PrivateTest.m */,
+				3ECB90082D52ECD69DAE7B637B41E8D8 /* Pod */,
+				3F9040825AEFDF2FF1D6B62301F7C119 /* public */,
+				959B57754C9F1B2BCDD0092DD5BB2EB0 /* Support Files */,
+			);
+			name = DTPrivateStatic;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3ECB90082D52ECD69DAE7B637B41E8D8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB09927D65C7A52FD1B78E19FE73C10D /* DTPrivateStatic.podspec */,
+				69F26620B35079AE05D2ADD87CD183FE /* LICENSE */,
+				49ACC1CB3697CEE8D30F5813E780BDCF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3F9040825AEFDF2FF1D6B62301F7C119 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				1FD8354A64AD7E66596C36635F2B49BA /* Public1.h */,
+				D4BDA8715CDB3208A8BF46045CB66943 /* Public1.m */,
+				F2903647FF5505D9D655A60E1D123122 /* Public2.h */,
+				659EEA300E1C7475A208BC8E79478F13 /* Public2.m */,
+			);
+			name = public;
+			path = DTPrivateStatic/Classes/public;
 			sourceTree = "<group>";
 		};
 		5DA00934AF6EB311E84930D8FC1DA88C /* Pods-DTPrivateStatic_Example */ = {
@@ -155,25 +186,33 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C612F1D6F62EEB17D4219E05E5EFDF01 /* Development Pods */,
+				A91DE84BA3577EF39D6123513AA8961E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B8EEFBEC6F2F58E6A62ADC10D11C61B2 /* Products */,
 				2D0D6352E1BFC148250180879EA38ADF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		858187977CEFE18703B20846EE18233E /* Support Files */ = {
+		959B57754C9F1B2BCDD0092DD5BB2EB0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				11B83BA369C61592257785E988AA13B9 /* DTPrivateStatic.modulemap */,
-				811FA919F0E0A408A0292BB97B33BF49 /* DTPrivateStatic.xcconfig */,
-				476DE0608606CD9849DE87C55A84148F /* DTPrivateStatic-dummy.m */,
-				01FB368CEF15358C882DE9BBD585284B /* DTPrivateStatic-prefix.pch */,
-				474CE9AC80F133E5E8BDBE27B78384E9 /* DTPrivateStatic-umbrella.h */,
-				41DA164748838D340688AD2178490445 /* Info.plist */,
+				3162ACC4BC4A7551B6C24951029F95D8 /* DTPrivateStatic.modulemap */,
+				C742CBC1BD62B5582E6BD5CFFA8E5E87 /* DTPrivateStatic.xcconfig */,
+				76C7AFBB819E1FD53EAC25531CC94D1E /* DTPrivateStatic-dummy.m */,
+				48DFF62D297C08E270B2F00967B595E0 /* DTPrivateStatic-prefix.pch */,
+				BDE2F4A9B95548BC6692807198226760 /* DTPrivateStatic-umbrella.h */,
+				75CD2892252737B9E41E5F1BA27108CC /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DTPrivateStatic";
+			sourceTree = "<group>";
+		};
+		A91DE84BA3577EF39D6123513AA8961E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DD09EC394FCB10A6E276EBBC5BE500D /* DTPrivateStatic */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B8EEFBEC6F2F58E6A62ADC10D11C61B2 /* Products */ = {
@@ -192,24 +231,6 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C40DBB8E8D69F9826E74E02733B28A29 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A73C15FFC9E1D3B733812D76E8ECCAF5 /* DTPrivateStatic.podspec */,
-				B51B9795BA9065A9BBA28E28B5E3CB8F /* LICENSE */,
-				7F7A5E914051B8BD777B5F56972EDAFB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C612F1D6F62EEB17D4219E05E5EFDF01 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				02BFD123CC9C1D49F908C9952938AC2D /* DTPrivateStatic */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E4CF7201D7A2C746FE22A46207414DBB /* Pods-DTPrivateStatic_Tests */ = {
@@ -241,15 +262,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E3F1E7FD84EFE653E49788819B36FCB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAC6D708A7148BA7553324B70FEE6A2B /* DTPrivateStatic-umbrella.h in Headers */,
-				9B71A37D6E318F55227B69E876ED65DF /* PrivateTest.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6CDB9B899C604AE3F536B476AC5CFE6A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,16 +270,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBC69A457D7364474CBA26CB3471E98E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887A5FB5B65752190AC1D5C44303F53D /* DTPrivateStatic-umbrella.h in Headers */,
+				921F02DC13848C064C7444AA7B38DA7B /* PrivateTest.h in Headers */,
+				9644F3E8D500502B39686D7B3814C04E /* Public1.h in Headers */,
+				D1B37BFCCAF363F4BF7B6BC6FBF45B30 /* Public2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14AEE7C9603A0F6251D139B947624CED /* DTPrivateStatic */ = {
+		153590320F6FFBD1F10E7A4935A8D673 /* DTPrivateStatic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FF16EDFC1A0EB6957C39302EAAF0ECB /* Build configuration list for PBXNativeTarget "DTPrivateStatic" */;
+			buildConfigurationList = 7656657305C96DFD3656AB05DC63F2C4 /* Build configuration list for PBXNativeTarget "DTPrivateStatic" */;
 			buildPhases = (
-				9F9B5122EBE470EF1147529E364359D6 /* Sources */,
-				A8E8F3814FEB9808185F754F7A30E1A6 /* Frameworks */,
-				1E3F1E7FD84EFE653E49788819B36FCB /* Headers */,
+				FFE52819E4DD8ACBDB10536522FB97F0 /* Sources */,
+				BA3B1A8B4FD8B8D49DB99AA0D330B122 /* Frameworks */,
+				CBC69A457D7364474CBA26CB3471E98E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -335,7 +358,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14AEE7C9603A0F6251D139B947624CED /* DTPrivateStatic */,
+				153590320F6FFBD1F10E7A4935A8D673 /* DTPrivateStatic */,
 				ECF91AF97B826FA19B30439344F58E5F /* Pods-DTPrivateStatic_Example */,
 				961A8836671674DD2C055E177452B9AA /* Pods-DTPrivateStatic_Tests */,
 			);
@@ -343,15 +366,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9F9B5122EBE470EF1147529E364359D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07B73A79615BEA3B72C4BB2477F41E8D /* DTPrivateStatic-dummy.m in Sources */,
-				E15BB0DDE91C622DE98C5C0282211F62 /* PrivateTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A5B2E941A03A582B6FC935548922824D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,13 +382,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFE52819E4DD8ACBDB10536522FB97F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D26DCE46C3DCA4F559B859F34E8AADF /* DTPrivateStatic-dummy.m in Sources */,
+				C5DDC270ED0AB2E535E3E5793A125E7B /* PrivateTest.m in Sources */,
+				42D1E929D766027D3BCDE2D639E26B73 /* Public1.m in Sources */,
+				06241E4609E8724906D7F4BEF9912F35 /* Public2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		2D9424BB84A1ECB38C7B1E1474516B87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DTPrivateStatic;
-			target = 14AEE7C9603A0F6251D139B947624CED /* DTPrivateStatic */;
+			target = 153590320F6FFBD1F10E7A4935A8D673 /* DTPrivateStatic */;
 			targetProxy = E35F1F19FF158ECC506D481F69F0AFCD /* PBXContainerItemProxy */;
 		};
 		9BC5790B55106A057A5649BC2D21C27D /* PBXTargetDependency */ = {
@@ -486,9 +511,9 @@
 			};
 			name = Release;
 		};
-		8731502091C19CE529089DA724F8338F /* Release */ = {
+		6C18799F083C90A9BB0F7441C87B3EFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 811FA919F0E0A408A0292BB97B33BF49 /* DTPrivateStatic.xcconfig */;
+			baseConfigurationReference = C742CBC1BD62B5582E6BD5CFFA8E5E87 /* DTPrivateStatic.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -672,9 +697,9 @@
 			};
 			name = Release;
 		};
-		E6982FC7B107C0CEC734F0E649C11AF8 /* Debug */ = {
+		E7B1D8877063B0F3BD6ABB2D82FC361C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 811FA919F0E0A408A0292BB97B33BF49 /* DTPrivateStatic.xcconfig */;
+			baseConfigurationReference = C742CBC1BD62B5582E6BD5CFFA8E5E87 /* DTPrivateStatic.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -714,15 +739,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FF16EDFC1A0EB6957C39302EAAF0ECB /* Build configuration list for PBXNativeTarget "DTPrivateStatic" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6982FC7B107C0CEC734F0E649C11AF8 /* Debug */,
-				8731502091C19CE529089DA724F8338F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		35F6FF1512E3E2538FD120B58E621C38 /* Build configuration list for PBXNativeTarget "Pods-DTPrivateStatic_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -737,6 +753,15 @@
 			buildConfigurations = (
 				42EC9628B199E86F172D89FD1180D071 /* Debug */,
 				69C04B7E42F9C90EF47098D769F5F005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7656657305C96DFD3656AB05DC63F2C4 /* Build configuration list for PBXNativeTarget "DTPrivateStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B1D8877063B0F3BD6ABB2D82FC361C /* Debug */,
+				6C18799F083C90A9BB0F7441C87B3EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
