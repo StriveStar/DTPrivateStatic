@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DTPrivateStatic_Example' do
+  pod 'DTPrivateStatic', :path => '../'
+
+  target 'DTPrivateStatic_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
