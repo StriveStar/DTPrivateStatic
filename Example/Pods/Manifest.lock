@@ -1,0 +1,16 @@
+PODS:
+  - DTPrivateStatic (0.1.0)
+
+DEPENDENCIES:
+  - DTPrivateStatic (from `../`)
+
+EXTERNAL SOURCES:
+  DTPrivateStatic:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DTPrivateStatic: a3b83ca8d348364ec0bc289a69b1e15c014c1331
+
+PODFILE CHECKSUM: 4ea6175919a32a729173fb936bd0765e042ff3b1
+
+COCOAPODS: 1.5.3
